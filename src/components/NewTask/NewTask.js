@@ -38,7 +38,7 @@ const NewTask = (props) => {
     }
     setIsLoading(false);
   };
-  // return section
+
   return (
     <Section>
       <TaskForm onEnterTask={enterTaskHandler} loading={isLoading} />
